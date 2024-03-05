@@ -1514,4 +1514,81 @@ header .plan-item p span {
     .section-stories .container{
         justify-content: space-around;
     }
+
+    .footer_mogo .container .mogo h3{
+        font-size: 30px;
+    }
+    .footer_mogo .container .mogo p{
+        font-size: 11px;
+    }
+    #follow_p{
+        font-size: 12px;
+    }
+    #follow_span{
+        font-size: 15px;
+    }
+    .footer_mogo .container .mogo .follow .follow_us{
+        width: 100%;
+    }
+    .footer_mogo .container .mogo .follow .follow_us p{
+        font-size: 12px;
+        width: 23%;
+    }
+    .footer_mogo .container .mogo .follow .follow_us .follow_icons{
+        width: 77%;
+        font-size: 15px;
+        justify-content: space-around;
+    }
+    .footer_mogo .container .mogo .subscribe input{
+        width: 70%;
+        height: 30px;
+        font-size: 12px;
+    }
+    .footer_mogo .container .mogo .subscribe button{
+        width: 30%;
+        height: 30px;
+        font-size: 12px;
+    }
+    .footer_mogo .container .mogo .subscribe{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .footer_mogo .container .instagram .photos{
+        width: 100%;
+        height: 200px;
+    }
+    .footer_mogo .container .instagram .photos .photo{
+        width: 30%;
+        height: 60px;
+    }
+    .footer_mogo .container .blogs .blog .photo{
+        width: 120px;
+    }
+    .footer_mogo .container .blogs .blog .info .p_1{
+        font-size: 10px;
+    }
+    .footer_mogo .container .blogs .blog .info p{
+        font-size: 11px;
+    }
+    .footer_mogo .container .blogs .blog{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 33%;
+    }
+    .footer_mogo .container .blogs .blog .info{
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .footer_mogo .container{
+        height: 450px;
+    }
+    .footer_mogo .container .blogs{
+        justify-content: center;
+        align-items: center;
+    }
+    #p_blogs{
+        align-self: auto;
+    }
 }
