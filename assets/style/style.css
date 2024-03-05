@@ -1377,6 +1377,35 @@ header .plan-item p span {
     .section-title-template h3{
         font-size: 19px;
     }
+
+    .section-devices{
+        margin-bottom: 80px;
+    }
+    .section-devices .container img.mobile{
+        width: 250px;
+        bottom: -50px;
+        right: 5%;
+    }
+    .section-devices .container .hider img{
+        width: 90%;
+    }
+
+    .section-story{
+        margin-bottom: 80px;
+    }
+    .section-story .card{
+        height: 200px;
+    }
+    .section-story .card i{
+        font-size: 25px;
+    }
+    .section-story .card h3{
+        font-size: 20px;
+    }
+
+    header .navigation .links{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 740px){
