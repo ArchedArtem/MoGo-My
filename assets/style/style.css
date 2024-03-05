@@ -1366,6 +1366,10 @@ header .plan-item p span {
     .section-devices .container .hider img{
         width: 90%;
     }
+
+    .section-grid{
+        margin-top: 0px;
+    }
     .section-grid .grid{
         width: 100%;
         grid-template-columns: 50%;
@@ -1403,6 +1407,14 @@ header .plan-item p span {
     header .plan-item p{
         font-size: 12px;
     }
+
+    header{
+        margin-bottom: 80px;
+    }
+
+    .section-story{
+        margin-bottom: 80px;
+    }
     .section-story .card{
         height: 180px;
     }
@@ -1431,6 +1443,14 @@ header .plan-item p span {
     .section-title-template h2{
         font-size: 24px;
     }
+
+    .section-stats{
+        margin-bottom: 80px;
+    }
+
+    .section-services{
+        margin-bottom: 80px;
+    }
     .section-services .icon{
         font-size: 20px;
     }
@@ -1446,6 +1466,7 @@ header .plan-item p span {
     }
     .section-slider-1{
         padding: 0;
+        margin-bottom: 80px;
     }
     .section-slider-1 img{
         width: 100px;
