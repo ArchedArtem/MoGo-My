@@ -1354,6 +1354,10 @@ header .plan-item p span {
     .section-accordion .container .accordion{
         width: 100%;
     }
+
+    .section-devices{
+        margin-bottom: 80px;
+    }
     .section-devices .container img.mobile{
         width: 150px;
         bottom: -50px;
@@ -1364,12 +1368,12 @@ header .plan-item p span {
     }
     .section-grid .grid{
         width: 100%;
-        grid-template-columns: 100%;
+        grid-template-columns: 50%;
         grid-template-rows: 150px 150px 150px 150px;
     }
     .section-grid .grid .el:nth-child(5){
         grid-area: 3/1/4/3;
-    }
+    }  
     header .title h1{
         font-size: 40px;
         line-height: 45px;
@@ -1412,7 +1416,8 @@ header .plan-item p span {
         font-size: 50px;
     }
     .section-stats .container .column p{
-        /* СДЕЛАТЬ ПЕРЕНОС */
+        font-size: 11px;
+        word-wrap: break-word;
     }
     .section-story .container{
         padding-bottom: 50px;
@@ -1435,5 +1440,78 @@ header .plan-item p span {
     .section-services p{
         font-size: 10px;
         line-height: 14px;
+    }
+    .section-slider-1 .comment p{
+        font-size: 17px;
+    }
+    .section-slider-1{
+        padding: 0;
+    }
+    .section-slider-1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .section-team .card{
+        height: 400px;
+    }
+    .section-team .card .icons i{
+        font-size: 30px;
+    }
+    .section-team .card h3{
+        font-size: 12px;
+    }
+    .section-team .card p{
+        font-size: 12px;
+    }
+
+    .section-logo img{
+        width: 90px;
+        height: 90px;
+    }
+
+    #title_client{
+        width: 100%;
+    }
+    .section-clients .container .client{
+        justify-content: space-between;
+    }
+    .section-clients .container .client .photo{
+        width: 23%;
+        height: 38%;
+    }
+    #client_info{
+        font-size: 13px;
+    }
+    .section-clients .container .client .line{
+        height: 3px;
+    }
+    .section-clients{
+        margin-bottom: 50px;
+    }
+
+    #info_p_1{
+        font-size: 11px;
+    }
+    #info_p_2{
+        font-size: 9px;
+    }
+    .section-stories .container .stories .icon{
+        top: 35px;
+    }
+    #span_icon_p{
+        font-size: 12px;
+    }
+    .section-stories i{
+        font-size: 12px;
+    }
+    .section-stories .container .stories{
+        width: 30%;
+    }
+    .section-stories .date{
+        width: 50px;
+        height: 60px;
+    }
+    .section-stories .container{
+        justify-content: space-around;
     }
 }
