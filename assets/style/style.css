@@ -1349,6 +1349,34 @@ header .plan-item p span {
     .section-accordion .container .accordion{
         width: 100%;
     }
+
+    .section-stats .container .column h2{
+        font-size: 50px;
+    }
+    .section-stats .container .column p{
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+
+    .section-slider-1 .comment p{
+        font-size: 17px;
+    }
+    .section-slider-1{
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    .section-slider-1 img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .section-title-template h2{
+        font-size: 25px;
+    }
+
+    .section-title-template h3{
+        font-size: 19px;
+    }
 }
 
 @media (max-width: 740px){
