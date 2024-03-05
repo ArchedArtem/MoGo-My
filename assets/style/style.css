@@ -1338,6 +1338,17 @@ header .plan-item p span {
     .container{
         width: 720px;
     }
+
+    .section-accordion .container{
+        flex-direction: column;
+    }
+    .section-accordion .container img{
+        width: 100%;
+        height: auto;
+    }
+    .section-accordion .container .accordion{
+        width: 100%;
+    }
 }
 
 @media (max-width: 740px){
