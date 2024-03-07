@@ -1332,11 +1332,69 @@ header .plan-item p span {
     .container{
         width: 960px;
     }
+    .section-clients .container .client .photo{
+        height: 40% !important;
+    }
+
+    .footer_mogo .container .mogo .follow .follow_us{
+        width: 100%;
+    }
+    .footer_mogo .container .mogo .follow .follow_us p{
+        font-size: 14px;
+        width: 20%;
+    }
+
+    .footer_mogo .container .mogo .follow .follow_us .follow_icons{
+        width: 80%;
+        font-size: 15px;
+        justify-content: space-around;
+    }
+
+    .footer_mogo .container .blogs .blog .photo{
+        width: 120px;
+    }
+    .footer_mogo .container .blogs .blog .info .p_1{
+        font-size: 10px;
+    }
+    .footer_mogo .container .blogs .blog .info p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .footer_mogo .container .blogs .blog{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 33%;
+    }
+    .footer_mogo .container .blogs .blog .info{
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .footer_mogo .container .blogs{
+        justify-content: center;
+        align-items: center;
+    }
+    #p_blogs{
+        align-self: auto;
+    }
+
+    .footer_mogo .container{
+        height: 450px;
+    }
+
+    .section-stats .container .column p{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 1000px){
     .container{
         width: 720px;
+    }
+
+    .section-slider-1 .comment p {
+        font-size: 14px !important;
     }
 
     .section-accordion .container{
@@ -1523,15 +1581,15 @@ header .plan-item p span {
         height: auto;
         width: auto;
     }
-    .footer_mogo .container{
-        height: 450px;
-    }
     .footer_mogo .container .blogs{
         justify-content: center;
         align-items: center;
     }
     #p_blogs{
         align-self: auto;
+    }
+    .footer_mogo .container{
+        height: 450px;
     }
 
     #info_p_1{
