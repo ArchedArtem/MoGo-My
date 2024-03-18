@@ -1423,6 +1423,8 @@ header .plan-item p span {
     .section-grid .grid .el:nth-child(5){
         grid-area: 3/1/4/3;
     }  
+
+    
 }
 
 @media (max-width: 740px){
