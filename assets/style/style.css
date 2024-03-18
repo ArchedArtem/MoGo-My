@@ -1332,11 +1332,73 @@ header .plan-item p span {
     .container{
         width: 960px;
     }
+    .section-clients .container .client .photo{
+        height: 40% !important;
+    }
+
+    .footer_mogo .container .mogo .follow .follow_us{
+        width: 100%;
+    }
+    .footer_mogo .container .mogo .follow .follow_us p{
+        font-size: 14px;
+        width: 20%;
+    }
+
+    .footer_mogo .container .mogo .follow .follow_us .follow_icons{
+        width: 80%;
+        font-size: 15px;
+        justify-content: space-around;
+    }
+
+    .footer_mogo .container .blogs .blog .photo{
+        width: 120px;
+    }
+    .footer_mogo .container .blogs .blog .info .p_1{
+        font-size: 10px;
+    }
+    .footer_mogo .container .blogs .blog .info p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .footer_mogo .container .blogs .blog{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 33%;
+    }
+    .footer_mogo .container .blogs .blog .info{
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .footer_mogo .container .blogs{
+        justify-content: center;
+        align-items: center;
+    }
+    #p_blogs{
+        align-self: auto;
+    }
+
+    .footer_mogo .container{
+        height: 450px;
+    }
+
+    .section-stats .container .column p{
+        font-size: 15px;
+    }
+
+    .accordion-inner p{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 1000px){
     .container{
         width: 720px;
+    }
+
+    .section-slider-1 .comment p {
+        font-size: 14px !important;
     }
 
     .section-accordion .container{
@@ -1423,13 +1485,11 @@ header .plan-item p span {
     .section-grid .grid .el:nth-child(5){
         grid-area: 3/1/4/3;
     }  
-
-    
 }
 
 @media (max-width: 740px){
     .container{
-        width: 100%;
+        width: 98%;
     }
     .section-accordion .container{
         flex-direction: column;
@@ -1516,7 +1576,7 @@ header .plan-item p span {
     }
     .section-stats .container .column p{
         font-size: 11px;
-        word-wrap: break-word;
+        white-space: pre-wrap;
     }
     .section-story .container{
         padding-bottom: 50px;
@@ -1555,9 +1615,15 @@ header .plan-item p span {
         padding: 0;
         margin-bottom: 80px;
     }
-    .section-slider-1 img{
-        width: 100px;
-        height: 100px;
+    .section-slider-1 .line{
+        width: 10% !important;
+    }
+    .section-slider-1 .slide{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-slider-1 .slide .img{
+        margin-bottom: 20px;
     }
     .section-team .card{
         height: 400px;
@@ -1573,8 +1639,8 @@ header .plan-item p span {
     }
 
     .section-logo img{
-        width: 90px;
-        height: 90px;
+        width: 70%;
+        height: 70px;
     }
 
     #title_client{
@@ -1582,6 +1648,7 @@ header .plan-item p span {
     }
     .section-clients .container .client{
         justify-content: space-between;
+        flex-direction: column;
     }
     .section-clients .container .client .photo{
         width: 23%;
@@ -1593,8 +1660,20 @@ header .plan-item p span {
     .section-clients .container .client .line{
         height: 3px;
     }
+    .section-clients .container{
+        height: 100%;
+        justify-content: space-between;
+    }
     .section-clients{
+        height: 700px;
         margin-bottom: 50px;
+    }
+    .section-clients .container .client .info{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     #info_p_1{
@@ -1698,5 +1777,11 @@ header .plan-item p span {
     }
     #p_blogs{
         align-self: auto;
+    }
+}
+
+@media (max-width: 360px){
+    .container{
+        width: 98%;
     }
 }
